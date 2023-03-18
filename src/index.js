@@ -3,7 +3,7 @@ const app = express()
 const port = 80
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('THIS IS A TEST OF THE PIPELINE')
 })
 
 app.listen(port, () => {
